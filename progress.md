@@ -1,148 +1,114 @@
-Internship Progress - September 25, 2026
+# Internship Progress - September 28, 2026
 
-1.What I Worked On Today
+## What I Worked On Today
 
-Today, I learned the fundamentals of **React.js** for frontend development and **PostgreSQL** for database management as part of my internship.
+Today, I worked on **database storage and started developing the backend using Go (Golang)**.
 
-In React, I focused on understanding components, props, state, hooks, forms, API integration, routing, and basic frontend architecture.
+I focused on understanding how application data can be stored in a PostgreSQL database and how a Go backend can communicate with the database.
 
-In PostgreSQL, I learned about relational databases, tables, columns, primary keys, foreign keys, SQL queries, and CRUD operations.
+I also started creating the basic structure of the Go backend and prepared it for implementing API functionality.
 
-I also studied how React, a backend API, and PostgreSQL can work together to build a complete web application.
+## What I Learned
 
-2.What I Learned
+Today I learned:
 
-i).React
+- How data is stored in PostgreSQL
+- How to create and manage database tables
+- How to insert data into a database
+- How to retrieve stored data
+- Basic PostgreSQL CRUD operations
+- How a Go backend communicates with a database
+- Basic Go backend project structure
+- How database connections work in Go
+- The role of APIs in connecting the frontend, backend, and database
+- How backend applications process requests and store data
 
-- Introduction to React.js
-- React components
-- JSX
-- Props
-- State
-- `useState` hook
-- `useEffect` hook
-- Event handling
-- Forms and form validation
-- Conditional rendering
-- Lists and keys
-- API integration
-- React Router
-- Basic frontend architecture
-- Communication between frontend and backend
+## What I Implemented
 
-ii).PostgreSQL
+I implemented the initial database storage functionality using PostgreSQL.
 
-- Introduction to PostgreSQL
-- Relational database concepts
-- Databases and tables
-- Rows and columns
-- Data types
-- Primary keys
-- Foreign keys
-- Constraints
-- SQL queries
-- `CREATE`, `INSERT`, `SELECT`, `UPDATE`, and `DELETE`
-- `WHERE`, `ORDER BY`, and `GROUP BY`
-- Basic joins
-- Relationships between tables
-- CRUD operations
-- Connecting an application to PostgreSQL
+I also started creating the backend application using Go.
 
-3.What I Implemented
+The work included:
 
-I practiced creating React components and managing data using props and state.
+- Creating the required database
+- Creating database tables
+- Defining appropriate columns and data types
+- Storing application data in PostgreSQL
+- Testing database operations
+- Setting up the initial Go backend structure
+- Preparing the backend for API development
+- Working on the database connection from the Go backend
 
-I also practiced handling user interactions, forms, and API requests from a React application.
+## How I Implemented It
 
-For PostgreSQL, I practiced creating databases and tables and performing basic CRUD operations using SQL queries.
+First, I created the required PostgreSQL database and tables with appropriate columns and data types.
 
-I also designed a basic database structure for an e-commerce application, including tables such as:
+I then tested storing data in the database using SQL queries and verified that the data was being saved correctly.
 
-- Users
-- Products
-- Categories
-- Cart
-- Orders
-- Order Items
+After completing the initial database setup, I started creating the Go backend.
 
-4.How I Implemented It
-
-For React, I created components and used JSX to build the user interface.
-
-I used `useState` to manage component data and `useEffect` to perform operations such as fetching data from an API.
-
-The basic React-to-backend flow I studied was:
+The basic architecture I worked on is:
 
 ```text
 React Frontend
       ↓
-HTTP/API Request
+Go Backend
       ↓
-Backend API
+REST API
       ↓
 PostgreSQL Database
       ↓
-Database Response
-      ↓
-Backend API
-      ↓
-React Frontend
+Stored Data
 ```
 
-For PostgreSQL, I created relational tables and used SQL queries to insert, retrieve, update, and delete data.
+The Go backend will receive requests from the frontend, process the required operations, communicate with PostgreSQL, and return the appropriate response to the frontend.
 
-I also learned how primary keys and foreign keys can be used to establish relationships between different tables.
+## Any Problems or Errors I Faced
 
-5.Any Problems or Errors I Faced
+- Initially, understanding the connection between the Go backend and PostgreSQL was challenging.
+- I had some difficulty understanding how database connections are handled in Go.
+- Understanding how the backend should communicate with the database required additional practice.
+- I also had to make sure that the database tables and data types were defined correctly.
+- Understanding the overall flow between the frontend, backend, and database was initially confusing.
 
-- Understanding the difference between props and state in React was initially confusing.
-- Understanding when to use `useState` and `useEffect` required practice.
-- Understanding React component structure and data flow took some time.
-- API integration between the frontend and backend required additional understanding.
-- Understanding database relationships and foreign keys in PostgreSQL was initially challenging.
-- Writing SQL queries and understanding joins required practice.
-- Understanding how a backend connects React with PostgreSQL was also new to me.
+## How I Solved Them
 
-6.How I Solved Them
+I solved these problems by working on the database setup step by step and testing the SQL queries individually.
 
-I solved these difficulties by learning each concept separately and then combining them into a complete application flow.
+I verified that the database and tables were created correctly before connecting them to the Go backend.
 
-For React, I created small components and practiced passing data using props and managing data using state.
+I also studied the basic Go database connection process and organized the backend into separate components so that the database and API logic can be managed properly.
 
-I practiced `useEffect` with API requests to understand how frontend applications communicate with backend services.
+Testing each part individually helped me identify and understand errors before moving to the next step.
 
-For PostgreSQL, I practiced creating tables and executing SQL queries individually. I also used examples involving users, products, and orders to understand relationships between tables.
+## What I Plan to Work On Next
 
-I compared the React frontend and PostgreSQL database roles to understand the complete architecture of a web application.
+Next, I plan to continue developing the **Go backend** and connect it more completely with PostgreSQL.
 
-7.What I Plan to Work On Next
+I plan to work on:
 
-Next, I plan to combine the technologies I have learned and work on a complete full-stack application.
+- Establishing a proper PostgreSQL connection in Go
+- Creating REST API endpoints
+- GET, POST, PUT, and DELETE operations
+- Implementing CRUD functionality
+- Sending and receiving JSON data
+- Connecting the frontend with the Go backend
+- Handling API requests and responses
+- Implementing error handling
+- Organizing the Go backend project structure
+- Testing the APIs with sample data
 
-I plan to focus on:
-
-- Building React frontend pages
-- Creating reusable React components
-- React form validation
-- React Router
-- API integration
-- Creating REST APIs using Go
-- Connecting Go with PostgreSQL
-- PostgreSQL CRUD operations
-- Database relationships
-- User authentication
-- JWT authentication
-- Connecting React → Go → PostgreSQL
-- Building features for my e-commerce project
-
-My goal is to build a complete full-stack application using:
+My goal is to complete the basic flow:
 
 ```text
-React
-  ↓
+React Frontend
+      ↓
 Go REST API
-  ↓
+      ↓
 PostgreSQL
+      ↓
+Database Storage
 ```
 
-This will help me understand how frontend, backend, and database technologies work together in a real-world application.
+and gradually convert it into a working full-stack application.
