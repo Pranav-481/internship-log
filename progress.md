@@ -1,6 +1,6 @@
 # Internship Progress - September 28, 2026
 
-##1. What I Worked On Today
+## 1. What I Worked On Today
 
 Today, I worked on **database storage and started developing the backend using Go (Golang)**.
 
@@ -8,7 +8,7 @@ I focused on understanding how application data can be stored in a PostgreSQL da
 
 I also started creating the basic structure of the Go backend and prepared it for implementing API functionality.
 
-##2. What I Learned
+## 2. What I Learned
 
 Today I learned:
 
@@ -23,7 +23,7 @@ Today I learned:
 - The role of APIs in connecting the frontend, backend, and database
 - How backend applications process requests and store data
 
-##3. What I Implemented
+## 3. What I Implemented
 
 I implemented the initial database storage functionality using PostgreSQL.
 
@@ -40,7 +40,7 @@ The work included:
 - Preparing the backend for API development
 - Working on the database connection from the Go backend
 
-##4. How I Implemented It
+## 4. How I Implemented It
 
 First, I created the required PostgreSQL database and tables with appropriate columns and data types.
 
@@ -64,7 +64,7 @@ Stored Data
 
 The Go backend will receive requests from the frontend, process the required operations, communicate with PostgreSQL, and return the appropriate response to the frontend.
 
-##5. Any Problems or Errors I Faced
+## 5. Any Problems or Errors I Faced
 
 - Initially, understanding the connection between the Go backend and PostgreSQL was challenging.
 - I had some difficulty understanding how database connections are handled in Go.
@@ -72,7 +72,7 @@ The Go backend will receive requests from the frontend, process the required ope
 - I also had to make sure that the database tables and data types were defined correctly.
 - Understanding the overall flow between the frontend, backend, and database was initially confusing.
 
-##6. How I Solved Them
+## 6. How I Solved Them
 
 I solved these problems by working on the database setup step by step and testing the SQL queries individually.
 
@@ -82,7 +82,7 @@ I also studied the basic Go database connection process and organized the backen
 
 Testing each part individually helped me identify and understand errors before moving to the next step.
 
-##7. What I Plan to Work On Next
+## 7. What I Plan to Work On Next
 
 Next, I plan to continue developing the **Go backend** and connect it more completely with PostgreSQL.
 
